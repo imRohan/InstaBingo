@@ -1,7 +1,7 @@
 <!--Rohan Likhite --> body {
     background-color: #406686;
-    font-family: 'Lato', sans-serif;
-    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
     font-size: 16px;
     color: white;
     -webkit-font-smoothing: antialiased;
@@ -15,9 +15,9 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Lato', sans-serif;
-    font-weight: 300;
-    color: #333;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: white;
 }
 h1 {
     font-size: 40px;

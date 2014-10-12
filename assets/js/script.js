@@ -1,7 +1,12 @@
 //<!--Rohan Likhite -->
 $(document).ready(function () {
+    
+    var images = [
+    'http://i.imgur.com/1vheYKJ.jpg',
+    
+];
     //Array of strings to be randomized - Bingo Square text
-    var theList = ["POV Legs", "Latte Art", "#OOTD", "ALCOHOL", "Throwback", "Black and White", "Fitness", "POV Driving", "Food", "Quote", "Pets", "Selfie", "Texts", "The Crew", "Cars", "#JobLove", "PlaneWing", "Concert", "Starbucks", "Tattoo", "#NoFilter", "Feet", "#TakeMeBack", "City Skyline"];
+    var theList = ["POV Feet", "Latte Art", "#OOTD", "ALCOHOL", "Throwback", "Black and White", "Fitness", "POV Driving", "Food", "Quote", "Pets", "Selfie", "Texts", "The Crew", "Cars", "#JobLove", "PlaneWing", "Concert", "Starbucks", "Tattoo", "#NoFilter", "Clouds", "Take Me Back", "City Skyline"];
     theList.sort(function () {
         return 0.5 - Math.random();
     });
@@ -10,10 +15,15 @@ $(document).ready(function () {
 
 
         $("#sq" + (i + 1)).append(theList[i]);
-        //newImage = "url(http://i.imgur.com/LsEqAim.jpg)";
+        
+        var url;
+        url = images[i];
+       newImage = "url("+url+")";
+        
+        //this newImage = "url(http://i.imgur.com/LsEqAim.jpg)";
         //newImage = "url('bg1.jpg')";
         //newImage = 'url(./FoodImages/fruit' + i.toString() + '.jpg)';
-        //document.getElementById('sq'+(i+1)).style.backgroundImage = newImage;
+        document.getElementById('sq'+(i+1)).style.backgroundImage = newImage;
     }
     $('td').click(function () {
         $(this).toggleClass('ui');
