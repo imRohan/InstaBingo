@@ -3709,6 +3709,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
     }
 }
 .navbar-collapse {
+    font-size: 20px;
     max-height: 340px;
     padding-right: 15px;
     padding-left: 15px;
@@ -4001,7 +4002,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-    color: #5e5e5e;
+    color: #adcce5;
     background-color: transparent;
 }
 .navbar-default .navbar-text {
@@ -4012,7 +4013,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-    color: #333333;
+    color: red;
     background-color: transparent;
 }
 .navbar-default .navbar-nav > .active > a,
