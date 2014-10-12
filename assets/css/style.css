@@ -1,27 +1,20 @@
-<!--Rohan Likhite -->
-body {
-
+<!--Rohan Likhite --> body {
     background-color: #406686;
 }
-
-
-
 #logo {
     position: relative;
-    display:block;
-    float:left;
+    display: block;
+    float: left;
 }
-
 #bingotext {
-    position:relative;
-    text-align:right;
+    position: relative;
+    text-align: right;
 }
-
 #winner {
     margin: auto;
     background: rgba(0, 0, 0, .85);
     border-radius: 5px;
-    height:700px;
+    height: 700px;
     width: 700px;
     display: none;
     z-index: 1;
@@ -29,64 +22,56 @@ body {
     color: #FFF;
     line-height: 618px;
 }
-
 #winner p {
     font-size: 45%;
     color: #CCC !important;
 }
-
-
 #wontext {
     width: 100%;
     display: inline-block;
     vertical-align: middle;
-    line-height: 15px; 
+    line-height: 15px;
     margin: auto;
     text-align: center;
     font-size: 300%;
     font-family: Helvetica;
 }
-
-tr, td {
-    z-index:2;
+tr,
+td {
+    z-index: 2;
 }
 td {
     background-color: #F6F6F6;
     width: 100px;
     height: 100px;
     text-align: center;
-    padding:10px;
+    padding: 10px;
     border-radius: 5px;
     font-family: Helvetica;
 }
-
 td:hover {
     color: #39688f;
 }
-
 #free {
     color: #ff1e72;
 }
 #header {
     text-align: center;
     width: 225px;
-    margin:auto;
+    margin: auto;
 }
 #bingo {
-    
     margin-bottom: 10px;
     border: 3px solid #ccc;
     background-color: #ccc;
     border-radius: 5px;
-    width:700px;
-    hight:700px;
+    width: 700px;
+    height: 700px;
 }
-
 .ui {
     background-color: #ff1e72 !important;
     color: #FFF !important;
 }
-
 #newcard {
     text-align: center;
     color: #FFF;
