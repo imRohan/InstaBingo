@@ -3,12 +3,37 @@ $(document).ready(function () {
     
     var images = [
     'http://i.imgur.com/1vheYKJ.jpg',
+        'http://i.imgur.com/KgU3RNZ.jpg',
+        'http://i.imgur.com/pIHUl43.jpg',
+        'http://i.imgur.com/n9jZc3G.jpg',
+        'http://i.imgur.com/fvlrTKQ.jpg',
+        'http://i.imgur.com/5Mryx81.jpg',
+        'http://i.imgur.com/CzSgpRS.jpg',
+        'http://i.imgur.com/OeszSbf.jpg',
+        'http://i.imgur.com/KgU3RNZ.jpg',
+        'http://i.imgur.com/KgU3RNZ.jpg',
+        'http://i.imgur.com/KgU3RNZ.jpg',
+        'http://i.imgur.com/KgU3RNZ.jpg',
+        'http://i.imgur.com/KgU3RNZ.jpg',
+        'http://i.imgur.com/KgU3RNZ.jpg',
+        'http://i.imgur.com/KgU3RNZ.jpg',
+        'http://i.imgur.com/KgU3RNZ.jpg',
+        'http://i.imgur.com/KgU3RNZ.jpg',
+        'http://i.imgur.com/KgU3RNZ.jpg',
+        'http://i.imgur.com/KgU3RNZ.jpg',
+        'http://i.imgur.com/KgU3RNZ.jpg',
+        'http://i.imgur.com/KgU3RNZ.jpg',
+        'http://i.imgur.com/KgU3RNZ.jpg',
+        'http://i.imgur.com/KgU3RNZ.jpg',
+        'http://i.imgur.com/KgU3RNZ.jpg',
+        'http://i.imgur.com/KgU3RNZ.jpg',
+        
     
 ];
     //Array of strings to be randomized - Bingo Square text
     var theList = ["POV Feet", "Latte Art", "#OOTD", "ALCOHOL", "Throwback", "Black and White", "Fitness", "POV Driving", "Food", "Quote", "Pets", "Selfie", "Texts", "The Crew", "Cars", "#JobLove", "PlaneWing", "Concert", "Starbucks", "Tattoo", "#NoFilter", "Clouds", "Take Me Back", "City Skyline"];
     theList.sort(function () {
-        return 0.5 - Math.random();
+        //return 0.5 - Math.random();
     });
     for (var i = 0; i < 25; i++) {
         //ID's of table cells are #sq1, #sq2, etc.
@@ -20,13 +45,12 @@ $(document).ready(function () {
         url = images[i];
        newImage = "url("+url+")";
         
-        //this newImage = "url(http://i.imgur.com/LsEqAim.jpg)";
-        //newImage = "url('bg1.jpg')";
-        //newImage = 'url(./FoodImages/fruit' + i.toString() + '.jpg)';
-        document.getElementById('sq'+(i+1)).style.backgroundImage = newImage;
+        //document.getElementById('sq'+(i+1)).style.backgroundImage = newImage;
     }
     $('td').click(function () {
+        //alert("A..!");
         $(this).toggleClass('ui');
+        
         if ($(this).data('value') == 1) {
             $(this).data('value', 0);
         } else {
