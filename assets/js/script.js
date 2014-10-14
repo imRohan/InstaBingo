@@ -35,7 +35,7 @@ $(document).ready(function () {
     theList.sort(function () {
         //return 0.5 - Math.random();
     });
-    for (var i = 0; i < 25; i++) {
+    for (var i = 0; i < 24; i++) {
         //ID's of table cells are #sq1, #sq2, etc.
 
 
@@ -45,10 +45,14 @@ $(document).ready(function () {
         url = images[i];
        newImage = "url("+url+")";
         
-        //document.getElementById('sq'+(i+1)).style.backgroundImage = newImage;
+       
+        document.getElementById('sq'+(i+1)).style.backgroundImage = newImage;
     }
-    $('td').click(function () {
-        //alert("A..!");
+    $(document).ready(function() {
+    $('body').on('click','td', function() {
+    
+    
+        alert("A..!");
         $(this).toggleClass('ui');
         
         if ($(this).data('value') == 1) {
@@ -76,4 +80,5 @@ $(document).ready(function () {
             $('#winner').slideDown('fast');
         }
     });
+        });
 });
