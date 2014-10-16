@@ -15,9 +15,11 @@
     <!-- Bootstrap core CSS -->
     <link href="assets/css/bootstrap.css" rel="stylesheet">
 
-    <!-- Custom styles for this template -->
-    <link href="assets/css/main.css" rel="stylesheet">
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="assets/css/main.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
+    <!--Hover by Ian Lunn -->
+    <link rel="stylesheet" href="assets/css/hover.css" media="all">
 
     <!--JavaScript-->
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
@@ -35,6 +37,8 @@
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
+    
+    
 </head>
 
 <body data-root="${rootContext}">
@@ -66,7 +70,7 @@
                 <div class="col-md-12">
                     <div class="col-md-8">
                         <h1>Board</h1>
-
+                        
                         <div id="winner">
                             <div id="wontext">
                                 <h2>That's a BINGO!</h2>
@@ -75,41 +79,41 @@
                         </div>
                         <table id="bingo">
                             <tr>
-                                <td data-value="0" id="sq1"></td>
-                                <td data-value="0" id="sq2"></td>
-                                <td data-value="0" id="sq3"></td>
-                                <td data-value="0" id="sq4"></td>
-                                <td data-value="0" id="sq5"></td>
+                                <td data-value="0" id="sq1" class="grow"></td>
+                                <td data-value="0" id="sq2" class="grow"></td>
+                                <td data-value="0" id="sq3" class="grow"></td>
+                                <td data-value="0" id="sq4" class="grow"></td>
+                                <td data-value="0" id="sq5" class="grow"></td>
                             </tr>
                             <tr>
-                                <td data-value="0" id="sq6"></td>
-                                <td data-value="0" id="sq7"></td>
-                                <td data-value="0" id="sq8"></td>
-                                <td data-value="0" id="sq9"></td>
-                                <td data-value="0" id="sq10"></td>
+                                <td data-value="0" id="sq6" class="grow"></td>
+                                <td data-value="0" id="sq7" class="grow"></td>
+                                <td data-value="0" id="sq8" class="grow"></td>
+                                <td data-value="0" id="sq9" class="grow"></td>
+                                <td data-value="0" id="sq10" class="grow"></td>
                             </tr>
                             <tr>
-                                <td data-value="0" id="sq11"></td>
-                                <td data-value="0" id="sq12"></td>
-                                <td data-value="0" id="free">
+                                <td data-value="0" id="sq11" class="grow"></td>
+                                <td data-value="0" id="sq12" class="grow"></td>
+                                <td data-value="0" id="free" >
                                     <h2>FREE</h2>
                                 </td>
-                                <td data-value="0" id="sq13"></td>
-                                <td data-value="0" id="sq14"></td>
+                                <td data-value="0" id="sq13" class="grow"></td>
+                                <td data-value="0" id="sq14" class="grow"></td>
                             </tr>
                             <tr>
-                                <td data-value="0" id="sq15"></td>
-                                <td data-value="0" id="sq16"></td>
-                                <td data-value="0" id="sq17"></td>
-                                <td data-value="0" id="sq18"></td>
-                                <td data-value="0" id="sq19"></td>
+                                <td data-value="0" id="sq15" class="grow"></td>
+                                <td data-value="0" id="sq16" class="grow"></td>
+                                <td data-value="0" id="sq17" class="grow"></td>
+                                <td data-value="0" id="sq18" class="grow"></td>
+                                <td data-value="0" id="sq19" class="grow"></td>
                             </tr>
                             <tr>
-                                <td data-value="0" id="sq20"></td>
-                                <td data-value="0" id="sq21"></td>
-                                <td data-value="0" id="sq22"></td>
-                                <td data-value="0" id="sq23"></td>
-                                <td data-value="0" id="sq24"></td>
+                                <td data-value="0" id="sq20" class="grow"></td>
+                                <td data-value="0" id="sq21" class="grow"></td>
+                                <td data-value="0" id="sq22" class="grow"></td>
+                                <td data-value="0" id="sq23" class="grow"></td>
+                                <td data-value="0" id="sq24" class="grow"></td>
                             </tr>
                         </table>
                     </div>

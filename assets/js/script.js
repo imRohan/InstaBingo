@@ -1,6 +1,8 @@
 //<!--Rohan Likhite -->
 $(document).ready(function () {
     
+    
+    
     var images = [
     'http://i.imgur.com/1vheYKJ.jpg',
         'http://i.imgur.com/KgU3RNZ.jpg',
@@ -54,6 +56,7 @@ $(document).ready(function () {
     
         alert("A..!");
         $(this).toggleClass('ui');
+        $(this).toggleClass('grow');
         
         if ($(this).data('value') == 1) {
             $(this).data('value', 0);
