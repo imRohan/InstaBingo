@@ -34,6 +34,7 @@ $(document).ready(function () {
 ];
     //Array of strings to be randomized - Bingo Square text
     var theList = ["POV Feet", "Latte Art", "#OOTD", "ALCOHOL", "Throwback", "Black and White", "Fitness", "POV Driving", "Food", "Quote", "Pets", "Selfie", "Texts", "The Crew", "Cars", "#JobLove", "PlaneWing", "Concert", "Starbucks", "Tattoo", "#NoFilter", "Clouds", "Take Me Back", "City Skyline"];
+    
     theList.sort(function () {
         //return 0.5 - Math.random();
     });
