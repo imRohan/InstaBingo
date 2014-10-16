@@ -8,11 +8,11 @@ An Instagram themed interactive Bingo board
 - Set up index
 - Got 5x5 board to work
 - Bootstrap initialized 
+- Background images loaded
+- Fixed scaling issues
+- Animations
 
 ###Todo
-
-- Get background images for each tile
-- fix scaling issues
 - incorporate instagram sidebar
 - fix overlays
 
