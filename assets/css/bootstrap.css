@@ -54,6 +54,7 @@ a:hover {
 h1 {
     margin: 0.67em 0;
     font-size: 2em;
+    font-weight: 700;
 }
 abbr[title] {
     border-bottom: 1px dotted;
@@ -345,8 +346,8 @@ h6,
 .h4,
 .h5,
 .h6 {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: 500;
+    
+    
     line-height: 1.1;
     color: inherit;
 }

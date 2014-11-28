@@ -12,13 +12,13 @@ $(document).ready(function () {
         'http://i.imgur.com/5Mryx81.jpg',
         'http://i.imgur.com/CzSgpRS.jpg',
         'http://i.imgur.com/OeszSbf.jpg',
-        'http://i.imgur.com/KgU3RNZ.jpg',
-        'http://i.imgur.com/KgU3RNZ.jpg',
-        'http://i.imgur.com/KgU3RNZ.jpg',
-        'http://i.imgur.com/KgU3RNZ.jpg',
-        'http://i.imgur.com/KgU3RNZ.jpg',
-        'http://i.imgur.com/KgU3RNZ.jpg',
-        'http://i.imgur.com/KgU3RNZ.jpg',
+        'http://i.imgur.com/MtoWPag.jpg',
+        'http://i.imgur.com/D0llvkl.jpg',
+        'http://i.imgur.com/e4C7Tmr.jpg',
+        'http://i.imgur.com/Qz0lSQU.jpg',
+        'http://i.imgur.com/DV660ha.jpg',
+        'http://i.imgur.com/Z3rSrMU.jpg',
+        'http://i.imgur.com/KopVDDv.jpg',
         'http://i.imgur.com/KgU3RNZ.jpg',
         'http://i.imgur.com/KgU3RNZ.jpg',
         'http://i.imgur.com/KgU3RNZ.jpg',
@@ -33,7 +33,8 @@ $(document).ready(function () {
     
 ];
     //Array of strings to be randomized - Bingo Square text
-    var theList = ["POV Feet", "Latte Art", "#OOTD", "ALCOHOL", "Throwback", "Black and White", "Fitness", "POV Driving", "Food", "Quote", "Pets", "Selfie", "Texts", "The Crew", "Cars", "#JobLove", "PlaneWing", "Concert", "Starbucks", "Tattoo", "#NoFilter", "Clouds", "Take Me Back", "City Skyline"];
+    var theList = ["POV Feet", "Latte Art", "Throwback", "The Crew", "Cars", "Tattoos", "Quote", "Pets", "Alcohol", "Black and White", "City Skyline", "Concert",
+"Fitness", "Job Love",  ];
     
     theList.sort(function () {
         //return 0.5 - Math.random();
@@ -55,7 +56,7 @@ $(document).ready(function () {
     $('body').on('click','td', function() {
     
     
-        alert("A..!");
+       // alert("A..!");
         $(this).toggleClass('ui');
         $(this).toggleClass('grow');
         
